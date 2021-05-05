@@ -246,7 +246,7 @@ client.on('message', message => {
             if(message.content.startsWith(prefix + "tkick on")) {
                 if(!message.channel.guild) return;
                                        if(message.member.id !== message.guild.ownerID) return message.channel.send('**Sorry But You Dont Have** `OWNERSHIP`' ); 
-        antiban[message.guild.id] = {
+        antikick[message.guild.id] = {
         onoff: 'On',
         }
         
