@@ -155,7 +155,7 @@ client.on('message', message => {
        let embed = new Discord.MessageEmbed()
                       .setTitle('**✅Done Check The Toggle ChannelD is On**')
                       .addField('Name Server', message.guild.name)
-                      .addField('Toggle', `${channelc[message.guild.id].onoff}`)
+                      .addField('Toggle', `${channeld[message.guild.id].onoff}`)
                       .addField('By', `${message.author.username}`)
                       .setThumbnail(message.author.avatarURL())
                       .setFooter(`${client.user.username}`)                  
