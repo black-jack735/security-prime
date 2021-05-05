@@ -34,14 +34,14 @@ let antiban = JSON.parse(fs.readFileSync('./antiban.json' , 'utf8'));
 let antiroleD = JSON.parse(fs.readFileSync('./antiroleD.json' , 'utf8'));
 let antiroleC = JSON.parse(fs.readFileSync('./antiroleC.json' , 'utf8'));
 let antikick = JSON.parse(fs.readFileSync('./antikick.json' , 'utf8'));
-client.login("Nzk4Mjk4MDI5Nzk0Nzg3MzM4.X_y--Q.kL_Oi1n5YFyXrDbHGnliQjOiKro")
+client.login("")
 client.on("ready", () => {
   console.log("ALLAH AKBAR");
   console.log("♔♔♔♔♔♔♔♔♔♔♔♔♔♔♔♔♔♔♔");
   console.log(`Logged in as ${client.user.tag}!`);
   console.log("بِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ");
     console.log(client.guilds.cache.map(c => `${c.name} : ${c.me.hasPermission(8)} : ${c.memberCount}`));
-  client.user.setActivity( `${prefix}help | BLACK SESTAM VERSION 12.4.0 | SERVERS ${client.guilds.cache.size} | Users ${client.users.cache.size} `);
+  client.user.setActivity( `${prefix}help | PROTECT SERVER YOURSELF VERSION 12.4.0 | SERVERS ${client.guilds.cache.size} | Users ${client.users.cache.size} `);
   console.log(`Logined`);
 });
 
