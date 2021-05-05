@@ -47,7 +47,7 @@ client.on("ready", () => {
 
 let antihack = JSON.parse(fs.readFileSync('./antihack.json' , 'utf8'));
 client.on('message', message => {
-            if(message.content.startsWith(prefix + "toggleHack on")) {
+            if(message.content.startsWith(prefix + "tAntihack on")) {
                 if(!message.channel.guild) return;
                                        if(message.member.id !== message.guild.ownerID) return message.channel.send('**Sorry But You Dont Have** `OWNERSHIP`' );
         antihack[message.guild.id] = {
@@ -72,7 +72,7 @@ client.on('message', message => {
         
                 })
 client.on('message', message => {
-            if(message.content.startsWith(prefix + "toggleHack off")) {
+            if(message.content.startsWith(prefix + "tAntihack off")) {
                 if(!message.channel.guild) return;
                                        if(message.member.id !== message.guild.ownerID) return message.channel.send('**Sorry But You Dont Have** `OWNERSHIP`' );   
         antihack[message.guild.id] = {
