@@ -1,10 +1,10 @@
 {
-  "name": "max",
+  "name": "black",
   "version": "2.1.0",
-  "description": "max",
-  "main": "bot.js",
+  "description": "black",
+  "main": "black.js",
   "scripts": {
-    "start": "node bot.js"
+    "start": "node black.js"
   },
   "dependencies": {
     "discord.js": "^12.4.0",
