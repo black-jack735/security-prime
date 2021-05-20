@@ -1023,7 +1023,7 @@ embed: new Discord.MessageEmbed()
 [`${Date.now() - message.createdTimestamp}` + "MS"],
 true
 )
-.addField("``servers``", [client.guilds.cachr.size], true)
+.addField("``servers``", [client.guilds.cache.size], true)
 .addField("``channels``", `[ ${client.channels.cache.size} ]`, true)
 .addField("``Users``", `[ ${client.users.cache.size} ]`, true)
 .addField("``My Name``", `[ ${client.user.tag} ]`, true)
